@@ -1,15 +1,14 @@
 <template>
-  <DataComponent />
+  <DemoTwo />
 </template>
 
 <script>
-import DataComponent from './components/Data.vue'
-
+import DemoTwo from './components/DemoTwo.vue'
 
 export default {
   name: 'App',
   components: {
-    DataComponent
+    DemoTwo
   }
 }
 </script>
